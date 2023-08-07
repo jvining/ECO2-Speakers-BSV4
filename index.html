@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<title>Starter Bootstrap V4</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta name="author" content="https://github.com/jvining">
+	<meta name="description" content="A Project Template built with Bootstrap 4, Jquery, & Google WebFonts. All assets locally hosted ready for immediate use (http://bit.ly/1SnymWq)">
+ 
+	<!-- Open Graph -->
+ 	<meta property="og:url" content="https://jvining.github.io/Starter-bootstrap-v4" />
+	<meta property="og:type" content="Product" />
+	<meta property="og:title" content="Starter Bootstrap V4" />
+	<meta property="og:description" content="A Project Template built with Bootstrap 4, Jquery, & Google WebFonts. All assets locally hosted ready for immediate use (http://bit.ly/1SnymWq)" />
+	<meta property="og:image" content="https://place-hold.it/600x315/563d7c/fff/000&text=Starter-Bootstrap-V4" />
+
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+ 	<link href="css/open-sans.css" rel="stylesheet" type="text/css">
+ 	<link href="style.css" rel="stylesheet" type="text/css">
+	
+	<style>
+		.speaker-image-block {height:200px; width:200px; overflow:hidden; display:block; margin:0 auto; position:inherit; border:1px #eee solid;}
+		.speaker-image-block > img:first-of-type {transition: all 0.3s ease;}
+		.speaker-image-block:hover > img:first-of-type {margin-top:-200px; transition: all 0.3s ease;}
+		@media(max-width:990px){.speaker-image-block {height:150px; width:150px;} .speaker-image-block:hover > img:first-of-type {margin-top:-150px;}}
+	
+		/* FOR DEVELOPMENT ONLY */
+		.noHover{pointer-events:none!important;}
+		.img-grey{filter:url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale")!important;filter:grayscale(100%)!important;-webkit-filter:grayscale(100%)!important;-moz-filter:grayscale(100%)!important;-ms-filter:grayscale(100%)!important;-o-filter:grayscale(100%)!important;filter:gray!important;}
+		.speaker-image-block {transition:.3s ease-in-out;}
+	</style>
+
+</head>
+<body>
+ 
+ 	<!-- * FOR DEVELOPMENT ONLY *-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+  				<div class="radio">
+ 				    <label class="btn btn-info"><input type="radio" name="SelectColour" value=" " checked> Default Style</label>
+  				    <label class="btn btn-secondary"><input type="radio" name="SelectColour" value="rounded"> Rounded Corners</label>
+				    <label class="btn btn-secondary"><input type="radio" name="SelectColour" value="img-grey"> Grey Scale</label>
+ 				    <label class="btn btn-secondary"><input type="radio" name="SelectColour" value="rounded img-grey"> Rounded Corners & Grey Scale</label>
+				    <label class="btn btn-secondary"><input type="radio" name="SelectColour" value="rounded-circle"> Circle Images</label>
+ 				    <label class="btn btn-secondary"><input type="radio" name="SelectColour" value="rounded-circle img-grey"> Circle & Grey Scale</label>
+ 				</div>
+ 			</div>
+		</div>
+	</div>
+	<!-- * END FOR DEVELOPMENT ONLY *-->
+
+
+	<div class="container mt-5">
+ 		<div class="row">
+ 			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0017-lara-skripitsky.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0051-mcdonalds-canada.svg.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Lara Skripitsky</a></h4>
+				<p>Vice President &amp; Chief Technology Officer<br><strong>McDonald's Restaurants of Canada Ltd.</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0025-ian-brooks.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0058-hf-logo-png.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Ian Brooks</a></h4>
+				<p>CEO and Founder<br><strong>HelloFresh Canada</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0000-simon-rodrigue.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0043-staples.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Simon Rodrigue</a></h4>
+				<p>SVP &amp; CDO<br><strong>Staples Canada</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0011-nancy-modrcin.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0050-metro-logo.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Nancy Modrcin</a></h4>
+				<p>VP Marketing<br><strong>Metro Inc.</strong></p>
+			</div>
+ 			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0013-greg-revelle.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0009-kohls.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Greg Revelle</a></h4>
+				<p>CMO<br><strong>Kohl's</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0002-rachael-vegas.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0001-brandless.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Rachael Vegas</a></h4>
+				<p>Chief Merchant<br><strong>Brandless</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<div class="img-rounded center-block">
+						<img class="img-fluid mx-autop d-block" src="img/2019-Vibhu-Norby.jpg">
+					</div>
+				</div>
+				<h4 class="my-2"><a href="#">Vibhu Norby</a></h4>
+				<p>CEO<br><strong>b8ta</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-Tracy-Sun.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0005-poshmark.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Tracy Sun</a></h4>
+				<p>Co-Founder &amp; SVP, New Markets<br><strong>Poshmark</strong></p>
+			</div>
+ 			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0016-david-heath2.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0015-bombas-logo.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">David Heath</a></h4>
+				<p>CEO &amp; Co-Founder<br> <strong>Bombas</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0001-michelle-farabaugh.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0012-harry-david.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Michelle Farabaugh</a></h4>
+				<p>CMO<br><strong>Harry &amp; David</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0003-ganesh-srivats.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0000-moda-operandi-updated.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Ganesh Srivats</a></h4>
+				<p>CEO<br><strong>Moda Operandi</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-Meera-Bhatia.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0004-stella-dot-logo-png.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Meera Bhatia</a></h4>
+				<p>COO<br><strong>Stella &amp; Dot</strong></p>
+			</div>
+ 			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0020-alan-wizemann.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0013-dollar-shave-club-logo.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Alan Wizemann</a></h4>
+				<p>CDO<br>
+				<strong>Dollar Shave Club</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<div class="img-rounded center-block">
+						<img class="img-fluid mx-autop d-block" src="img/2019-Sid-Jatia.jpg">
+					</div>
+				</div>
+				<h4 class="my-2"><a href="#">Sid Jatia</a></h4>
+				<p>VP Global eCommerce<br>
+				<strong>Under Armour</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0003-jeff-brooks.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0014-casper-logo.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Jeff Brooks</a></h4>
+				<p>CMO<br>
+				<strong>Casper</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0000-valerie-hoecke-2.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0008-lvmh.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Valerie Hoecke</a></h4>
+				<p>CDO, LVMH Perfumes &amp; Cosmetics<br>
+				<strong>LVMH</strong></p>
+			</div>
+ 			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0005-dave-isbitski.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0000-amazon-logo-transparent.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Dave Isbitski</a></h4>
+				<p>Chief Evangelist, Alexa<br>
+				<strong>Amazon</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-JoAnne-Kennedy.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0007-nordstrom.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">JoAnne Kennedy</a></h4>
+				<p>VP Technology<br>
+				<strong>Nordstrom</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0004-fernando-madeira-head-shot.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0010-ipsy.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Fernando Madeira</a></h4>
+				<p>President<br><strong>Ipsy</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-Igor-Cherny.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2018-0011-home-depot.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Igor Cherny</a></h4>
+				<p>VP, Online, Marketing, &amp; Merchandising Technology<br>
+				<strong>The Home Depot</strong></p>
+			</div>
+ 			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0028-don-romano.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0055-hyundai-vertical-logo-en-blue-new.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Don Romano</a></h4>
+				<p>President and CEO<br>
+				<strong>Hyundai Canada</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0016-lee-mccabe.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0064-alibaba-group.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Lee McCabe</a></h4>
+				<p>VP, North America<br><strong>Alibaba Group</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0000-eva-salem.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0001-canadian-tire.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Eva Salem</a></h4>
+				<p>AVP, Strategic Marketing<br><strong>Canadian Tire Corporation</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0020-krista-collinson.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0039-walmart-canada.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Krista Collinson</a></h4>
+				<p>VP E-Commerce Merchandising<br><strong>Walmart Canada</strong></p>
+			</div>
+ 			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0033-chris-tarrant.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0042-starbucks.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Chris Tarrant</a></h4>
+				<p>VP, Store Development<br> <strong>Starbucks Coffee Canada</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0013-matthew-cebulski.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0053-loblaw-digital.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Matthew Cebulski</a></h4>
+				<p>Head of Discovery and Partnership Success<br> <strong>Loblaw Digital</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-Lacey-Norton.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0061-canopy-growth-logo-683.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Lacey Norton</a></h4>
+				<p>VP Retail<br> <strong>Canopy Growth Corporation</strong></p>
+			</div>
+			<div class="col-md-3 col-6 text-center">
+				<div class="speaker-image-block">
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0006-ray-gracewood.jpg"> 
+					<img alt="img" class="img-fluid mx-autop d-block" src="img/2019-0048-organigram.jpg">
+				</div>
+				<h4 class="my-2"><a href="#">Ray Gracewood</a></h4>
+				<p>Chief Commercial Officer<br> <strong>Organigram Holdings</strong></p>
+			</div>
+ 		</div>
+	</div>
+ 	
+ 	
+	<!-- JS -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+ 	
+	<script>
+		// Radio Button Selector * FOR DEVELOPMENT ONLY *
+		$(document).ready(function () {
+		    $('input:radio').click(function () {
+				$('.speaker-image-block').removeClass().addClass('speaker-image-block').toggleClass(this.value);
+		    });
+ 		});
+	</script>
+
+</body>
+</html>
